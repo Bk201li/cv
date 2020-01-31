@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title>Clément Llorens | Etudiant en Informatique</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../">Accueil</a></li>
+                    <li><a href="../competences/">Compétences</a></li>
+                    <li><a href="../passions/">Passions</a></li>
+                    <li><a class="active" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="wrapper">
+            <section>
+                <article id="sub_header">
+                    <img id="avatar" src="../assets/images/avatar_mini.jpg" alt="Clément Llorens" />
+                    <h1>Clément Llorens</h1>
+                    <h2>Sécurité Informatique</h2>
+                    <p id="texte_sub_header">
+                        Etudiant en Bachelor 1 Informatique à Toulouse Ynov Campus, à la recherche d'un stage dans ce domaine.
+                    </p>
+                </article>
+            </section>
+
+            <section id="formulaire">
+                <form method="post" action="#">
+                    <p>
+                        <label for="nom">Nom *</label>
+                        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom..." required>
+        
+                        <label for="prenom">Prénom *</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom..." required>
+
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="adresse">Adresse</label>
+                        <select id="adresse" name="adresse">
+                            <option value="chemin">Chemin</option>
+                            <option value="rue">Rue</option>
+                            <option value="impasse">Impasse</option>
+                            <option value="place">Place</option>
+                        </select>
+
+                        <input type="text" id="numeroRue" name="numeroRue" placeholder="Entrez votre numéro de rue...">
+
+                        <input type="text" id="complementAdresse" name="complementAdresse" placeholder="Entrez votre complément d'adresse...">
+
+                        <input type="text" id="codePostal" name="codePostal" placeholder="Entrez votre code postal... *" required>
+
+                        <input type="text" id="ville" name="ville" placeholder="Entrez le nom de votre ville... *" required>
+
+                        <select id="pays" name="pays">
+                            <option value="france">France</option>
+                            <option value="espagne">Espagne</option>
+                            <option value="allemagne">Allemagne</option>
+                            <option value="canada">Canada</option>
+                        </select>
+                        
+                        <label for="ameliorer">Comment pensez-vous que je pourrais améliorer mon site ?</label>
+                        <textarea name="ameliorer" id="ameliorer"></textarea>
+
+                        <input type="submit" value="Envoyer">
+                        <input id="button_mailclient" type="button" value="Ou contactez-moi ici" 
+                        onclick="window.location.href='mailto:llorens.31600@gmail.com'">
+                    </p>
+                </form>
+            </section>
+
+            <footer>
+                <a href="https://www.linkedin.com/in/cl%C3%A9ment-llorens-871580194/">
+                    <img id="cv" src="../assets/images/linkedin.png" alt="mon lien linkedin">
+                </a>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+@import url("../base/base.css");
+@import url("../base/sub_header.css");
+
+/* SECTION INTRODUCTION */
+
+#section_passions{
+    border-radius: 3em;
+    background-color: white;
+    width: 60vw;
+    margin: 5vh auto 0 auto;
+    padding: 3vh 0 1vh 0;
+}
+
+.introduction{
+    width: 45vw;
+    margin: 0 auto 2vh auto;
+    display: flex;
+}
+
+.text_section{
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.passions{
+    border-radius: 3em;
+}
+
+.passions:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.introduction:nth-child(2)
+{
+    justify-content: flex-end;
+}
+
+.introduction:nth-child(4)
+{
+    justify-content: flex-end;
+}
+
+.div_text{
+    width: 30vw;
+    margin: auto 2vw auto 2vw;
+}

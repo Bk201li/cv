@@ -1,0 +1,58 @@
+@import url("base/base.css");
+
+/* SECTION INFORMATIONS */
+
+#article_informations{
+    border-radius: 1em;
+    background-color: white;
+    width: 70vw;
+    margin: 5vh auto 0 auto;
+    padding: 1vh 0 1vh 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#article_informations:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#avatar{
+    float: right;
+    margin: 3vh 2vw 0 0;
+    border-radius: 10em;
+    border: 0.19em #1DA1F2 solid;
+}
+
+h3{
+    text-indent: 1.5vw;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#liste_informations{
+    list-style-type: none;
+    width: 40vw;
+}
+
+.text_informations{
+    padding-bottom: 3vh;
+    font-size: 1.25em;
+    line-height: 1.4em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#button_pdf{
+    width: 10vw;
+    height: 5vh;
+    margin-left: 2vw;
+    margin-bottom: 1vw;
+    border-radius: 5em;
+    border: none;
+    background-color: #e23e43;
+    color: white;
+    cursor: pointer;
+}
+
+#button_pdf:hover{
+    background-color: #c93636;
+}

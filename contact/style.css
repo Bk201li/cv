@@ -1,0 +1,56 @@
+@import url("../base/base.css");
+@import url("../base/sub_header.css");
+
+/* SECTION FORMULAIRE */
+
+#formulaire{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border-radius: 1em;
+    background-color: #f2f2f2;
+    padding: 1.25em;
+    margin-top: 5vh;
+}
+
+form{
+    width: 100%;
+}
+
+input[type=text], [type=email], [type=number], select, textarea{
+    width: 100%;
+    padding: 0.9em;
+    margin: 1.1vh 0;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.375em;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.9em;
+    margin: 1.1vh 0;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+#button_mailclient{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5em;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#button_mailclient:hover{
+    background-color: #45a049;
+}
